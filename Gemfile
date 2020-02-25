@@ -14,7 +14,7 @@ gem 'html-pipeline-asciidoc_filter', '~> 1.5'
 gem 'github-markdown', '~> 0.6.9'
 
 gem 'activesupport', '~> 4.2'
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'pry'
 gem 'pry-coolline'
 
