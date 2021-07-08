@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 ruby '2.4.2'
 
 # essential
-gem 'nanoc', '~> 4.7'
-gem 'nanoc-conref-fs', '~> 0.7'
+gem 'nanoc', '~> 4.9', '>= 4.9.4'
+gem 'nanoc-conref-fs', '~> 0.7', '>= 0.7.0'
 
 # rendering
-gem 'nanoc-html-pipeline', '~> 0.3'
+gem 'nanoc-html-pipeline', '~> 0.3', '>= 0.3.5'
 gem 'gemoji', '2.1.0'
 gem 'html-pipeline-rouge_filter', '~> 1.0'
 gem 'extended-markdown-filter', '~> 0.4'
@@ -20,5 +20,5 @@ gem 'pry-coolline'
 
 group :test do
   gem 'colorize', '~> 0.8.1'
-  gem 'html-proofer', '~> 3.7'
+  gem 'html-proofer', '~> 3.9', '>= 3.9.2'
 end
